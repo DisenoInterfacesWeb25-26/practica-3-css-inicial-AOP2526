@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <link rel="shortcut icon" type="image/png" href="assets/images/favicon.jpg">
+    <header>
+        <a href="index.html"><img src="assets/images/logo.png" alt="Logotipo Tienda Ejemplo"></a>
+    </header>
+    <h1>Formulario de Contacto</h1>
+    <form action="/submit" method="post">
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" maxlength="40" pattern="[A-Za-z0-9]+" required placeholder="Introduce tu nombre" autofocus><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required placeholder="Introduce tu email"><br><br>
+
+        <label for="edad">Edad:</label><br>
+        <input type="number" id="edad" name="edad" min="18" max="99" required placeholder="Edad entre 18 y 99" style = "width: 170px;"><br><br>
+
+        <label for="telefono">Teléfono:</label><br>
+        <input type="tel" id="telefono" name="telefono" required placeholder="Ej 600000000"><br><br>
+
+        <label for="consulta">Consulta:</label><br>
+        <textarea id="consulta" name="consulta" required placeholder="Escribe tu consulta"></textarea><br><br>
+
+        <label>
+            <input type="checkbox" id="politica" name="politica" required> Acepto la política de privacidad y cookies
+        </label><br><br>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+    <h2>Datos de Contacto</h2>
+    <p>Teléfono: <a href="tel:+123456789">+123456789</a></p>
+    <p>Email: <a href="mailto:info@tiendaejemplo.com">info@tiendaejemplo.com</a></p>
+</body>
+<!-- COmentario prueba-->
+</html>
