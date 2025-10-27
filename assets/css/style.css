@@ -256,7 +256,7 @@ button:hover {
     font-size: 2em;
     font-family: 'Georgia', serif;
     color:#3700FD;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7); 
     text-align: left;
 }
 
